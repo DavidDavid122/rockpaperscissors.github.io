@@ -1,0 +1,86 @@
+/* Import Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: rgb(88, 97, 89);
+}
+
+.container {
+    position: absolute;
+    width: 45%;
+    min-width: 500px;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    padding: 40px 30px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.weapons {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.weapons button {
+    width: 100px;
+    height: 100px;
+    color: #000;
+    background-color: #85816f;
+    font-size: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.details {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.score,
+.details {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+#result {
+    width: 180px;
+    font-weight: 600;
+    margin: 30px auto;
+    padding: 10px 0;
+    letter-spacing: 0.5px;
+}
+
+#user_choice,
+#computer_choice {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: 600;
+}
